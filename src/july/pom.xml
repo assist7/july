@@ -21,7 +21,17 @@
   
   <dependencyManagement>
   	<dependencies>
-  	
+  		<!-- july -->
+  		<dependency>
+		    <groupId>com.assist7.july</groupId>
+		    <artifactId>july-base</artifactId>
+		    <version>${project.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.assist7.july</groupId>
+		    <artifactId>july-utils</artifactId>
+		    <version>${project.version}</version>
+		</dependency>
   		
   		<!-- 外部 -->
 		<dependency>
@@ -83,5 +93,7 @@
   </dependencyManagement>
   <modules>
     <module>july-base</module>
+    <module>july-utils</module>
+    <module>july-salog</module>
   </modules>
 </project>
